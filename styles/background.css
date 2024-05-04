@@ -1,0 +1,45 @@
+.background-img {
+	position: absolute;
+	top: 50px;
+	left: 0;
+	right: 0;
+	width: 100vw;
+	height: calc(100vh - 50px);
+	opacity: 0;
+	z-index: -10;
+	overflow: hidden;
+}
+
+@keyframes slide1 {
+	0% {
+		opacity: 0;
+	}
+
+	10% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 1;
+	}
+
+	60% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 0;
+	}
+}
+
+#b1 {
+	animation: slide1 30s ease-in-out 0s infinite forwards;
+}
+
+#b2 {
+	animation: slide1 30s ease-in-out 10s infinite forwards;
+}
+
+#b3 {
+	animation: slide1 30s ease-in-out 20s infinite forwards;
+}

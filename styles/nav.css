@@ -1,0 +1,13 @@
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	direction: rtl;
+	justify-content: space-between;
+	align-items: center;
+	background-color: var(--color-bg);
+	z-index: 1;
+	border-radius: 0 0 30px 30px;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}

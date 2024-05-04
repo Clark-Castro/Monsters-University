@@ -1,0 +1,43 @@
+.hamburger-dropmenu {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	top: 80px;
+	right: -300px;
+	border-radius: 30px;
+	background-color: var(--color-bg);
+	opacity: 0;
+	transition: opacity 50ms, right 100ms;
+	z-index: -1;
+	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hamburger-button:focus ~ .hamburger-dropmenu,
+.hamburger-dropmenu:focus-within {
+	opacity: 1;
+	right: 10px;
+}
+
+.hamburger-dropmenu > button {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	width: 100%;
+	font-size: 1.5rem;
+	background-color: inherit;
+	border-radius: 30px;
+	padding: 10px 20px;
+	text-shadow: 5px 5px 5px var(--color-hover);
+	opacity: inherit;
+	z-index: inherit;
+}
+
+.hamburger-dropmenu > button:hover {
+	background-color: var(--color-hover);
+}
+
+.hamburger-dropmenu > button:active {
+	background-color: var(--color-click);
+}

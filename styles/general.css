@@ -1,0 +1,53 @@
+:root {
+	--color-main: rgb(11, 102, 102);
+	--color-sec: rgb(255, 0, 242);
+	--color-bg: rgb(226, 226, 226);
+	--color-bg-count: rgb(187, 187, 187);
+	--color-click: rgb(171, 171, 171);
+	--color-hover: rgb(203, 203, 203);
+	--color-text: rgb(94, 94, 94);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: "Lalezar", Arial;
+	font-size: 1rem;
+	font-style: normal;
+	color: var(--color-text);
+	user-select: none;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	padding-top: calc(100vh + 50px);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow-x: hidden;
+	background-color: rgb(128, 207, 216);
+}
+
+p:hover {
+	cursor: default;
+}
+
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+a {
+	all: inherit;
+}
+
+a:hover {
+	cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.button-bar {
+	position: relative;
+	display: flex;
+	height: 80px;
+	direction: rtl;
+	justify-content: right;
+	align-items: center;
+}
+
+.button-bar > button {
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: var(--color-main);
+	height: 80px;
+	padding: 5px;
+	margin: 5px;
+	text-wrap: nowrap;
+	background-color: inherit;
+	border-radius: 30px;
+	text-shadow: 5px 5px 5px var(--color-hover);
+}
+
+.button-bar > .hamburger-button {
+	width: 80px;
+	margin: 0;
+	padding: 0;
+}
+
+.hamburger-img {
+	width: 50px;
+}
+
+.button-bar > button:hover {
+	background-color: var(--color-hover);
+}
+
+.button-bar > button:active {
+	background-color: var(--color-click);
+}

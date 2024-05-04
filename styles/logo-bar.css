@@ -1,0 +1,24 @@
+.logo {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding-left: 220px;
+	padding-right: 20px;
+}
+
+.logo-img {
+	width: 80px;
+}
+
+.title {
+	width: 90px;
+	color: var(--color-main);
+	font-weight: 100;
+	font-size: 2rem;
+	line-height: 100%;
+	text-align: center;
+	text-shadow: 5px 5px 5px var(--color-hover);
+	text-wrap: 1;
+}
